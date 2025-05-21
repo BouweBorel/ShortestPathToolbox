@@ -3,12 +3,12 @@ A toolbox which generate the shortest path between two points in a given environ
 
 ## Usage manual
 To use this toolbox, you need to input the following:
-- **Environment coordinates**: It is the points that forme the polygon enclosing your obstacles
+- **Environment coordinates** [main.cpp]: It is the points that forme the polygon enclosing your obstacles
       * Need to be feeded into the vector of points "envPoints" that is in the "main" file
   
   ![image](https://github.com/user-attachments/assets/f384d0ff-cd6e-4943-94b7-b062e8c13c54)
 
-- **Obstacle coordinates**: It is the points forming the obstacle in your environment. It has to be feeded in 3 different form
+- **Obstacle coordinates** [main.cpp]: It is the points forming the obstacle in your environment. It has to be feeded in 3 different form
     - **Drawing Obstacle**: Which is the coordinates of the actual your obstacles as they are in your referential. Each lines you see represent an obstacle. 
 
       ![image](https://github.com/user-attachments/assets/e812f1ff-a537-41c6-87b7-a2871a94f00e)
@@ -37,11 +37,11 @@ To use this toolbox, you need to input the following:
       
       ![image](https://github.com/user-attachments/assets/775d9ac1-a6d8-4174-8ca1-b093713a6bdb)
 
-- **Size of the window**: It is the size of the window, it can be set here
+- **Size of the window**[main.cpp]: It is the size of the window, it can be set here
 
     ![image](https://github.com/user-attachments/assets/1b86cd26-f378-4ac6-bca8-5869d440dd9d)
 
-- **Size of region domain and subdivision**: The first to arguments are the size of region domain and the last is the number of subdivision (n x n) size
+- **Size of region domain and subdivision**[Visualizer.cpp]: The first to arguments are the size of region domain and the last is the number of subdivision (n x n) size
 
     ![image](https://github.com/user-attachments/assets/ba503b88-4f38-416b-865e-a33a653b780c)
 
@@ -50,7 +50,7 @@ To use this toolbox, you need to input the following:
     ![Screenshot from 2025-05-07 12-39-03](https://github.com/user-attachments/assets/37b94725-e1cc-482f-a5ea-762cb751a83f)
 
 
-- **Scaling factor**: It is the ratio between the window size and the region domain (n x n, which covers your environment) size. You just need to substitute this denominator with yours
+- **Scaling factor**[Visualizer.cpp]: It is the ratio between the window size and the region domain (n x n, which covers your environment) size. You just need to substitute this denominator with yours
 
     ![image](https://github.com/user-attachments/assets/2cf51207-7795-4222-85d6-58ec9a0e4630)
 
